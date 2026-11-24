@@ -1,0 +1,13 @@
+[project]
+name = "mnist-digit-recognition"
+version = "0.1.0"
+description = "MNIST digit recognition project."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "tensorflow>=2.18.0",
+    "mypy>=1.19.1",
+    "types-tensorflow>=2.18.0.20260224",
+]
