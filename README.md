@@ -15,6 +15,13 @@ explores the MNIST dataset, and the training script builds a CNN model achieving
 - [main.py](main.py): Minimal entry point placeholder.
 - `mnist/`: Raw MNIST IDX files (train/test images and labels).
 
+**mind**:
+
+- MNIST data can be retrieved in the [release mnist_digit_exploration](https://github.com/OMerkel/mnist_digit_recognition/releases/download/mnist_digit_exploration/MNIST_ORG.zip)
+- Save and unzip to `mnist/MNIST_ORG`
+- A pre-trained keras model can be retrieved in the [release interactive_digit_prediction](https://github.com/OMerkel/mnist_digit_recognition/releases/download/interactive_digit_prediction/mnist_model.keras)
+- Alternatively train your own model as described below. On modern hardware it just takes a few minutes even if using CPU only.
+
 ## Requirements
 
 - Python >= 3.11, < 3.14
@@ -43,7 +50,6 @@ This will:
 [![Training history](./training_history.png)](./training_history.png)
 
 [![Predictions](./predictions.png)](./predictions.png)
-
 
 ### Explore the data
 
