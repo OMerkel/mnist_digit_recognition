@@ -150,8 +150,8 @@ Total parameters: ~225K
   simple linear calculation could.
 - **Dense output:** The final dense layer has 10 units, one for each
   possible digit from 0 to 9. Each unit produces a score for its digit.
-- **Softmax:** Converts those 10 scores into probabilities that add up to
-  1. The digit with the highest probability is the model's prediction.
+- **Softmax:** Converts those 10 scores into probabilities that add up
+  to 1. The digit with the highest probability is the model's prediction.
 
 ## Results
 
